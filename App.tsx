@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 
 // go www.openweathermap.org, signup and get free api.
-const API_KEY = 'PUT_API_HERE';
+const API_KEY = 'API_KEY';
 
 // latitude and longtitude of your location 
 const lat = 41; // Istanbul latitude

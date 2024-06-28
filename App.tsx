@@ -3,7 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useEffect, useState } from 'react';
 
-const API_KEY = 'c87e34481e0fc2e79f2d3dbeeb408990';
+
+// go www.openweathermap.org, signup and get free api.
+const API_KEY = 'PUT_API_HERE';
+
+// latitude and longtitude of your location 
+const lat = 41; // Istanbul latitude
+const lon = 28; // Istanbul longtitude
 
 
 export default function App() {
@@ -14,7 +20,7 @@ export default function App() {
   const onScreenLoad = () => {
     
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?lat=15&lon=90&APPID=${API_KEY}&units=metric`
+      `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&APPID=${API_KEY}&units=metric`
     )
     .then(res => res.json())
     .then(json =>{

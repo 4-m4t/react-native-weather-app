@@ -1,10 +1,9 @@
 
-# simple weather app with OpenWeather API 🥴
+## simple weather app with OpenWeather API 🥴
 
 
 
-#### just for to get used to typescript and react native 🤒🤒.   
-
+ just for to get used to typescript and react native 🤒🤒.   
 
 
 
